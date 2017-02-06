@@ -1,2 +1,2 @@
-# simshario
-Mouse and keyboard sharing tool
+# SimSharIO
+Mouse and keyboard simple sharing tool.
