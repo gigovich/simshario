@@ -3,8 +3,12 @@ name = "simshar"
 version = "0.1.0"
 authors = ["Givi Khojanashvili <gigovich@gmail.com>"]
 
+[[bin]]
+name = "simshar"
+
 [features]
 gtk_3_10 = []
+default = ["gtk_3_10"]
 
 [dependencies.gtk]
 version = "0.1.1"
