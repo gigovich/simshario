@@ -10,6 +10,9 @@ name = "simshar"
 gtk_3_10 = []
 default = ["gtk_3_10"]
 
+[dependencies]
+log = "0.3.6"
+
 [dependencies.gtk]
 version = "0.1.1"
 features = ["v3_10"]

@@ -3,6 +3,7 @@ name = "simshar"
 version = "0.1.0"
 dependencies = [
  "gtk 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -210,6 +211,11 @@ version = "0.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "log"
+version = "0.3.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "pango"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -255,6 +261,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum gtk 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "50c5d2d3330a4d92348bbe5e2346fbeb31384af1d547c0ad7c120639d8c19718"
 "checksum gtk-sys 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "ecdca043a321a1c19a16ae0efb9fcab6922051711fe238413b80f301e9caf17d"
 "checksum libc 0.2.20 (registry+https://github.com/rust-lang/crates.io-index)" = "684f330624d8c3784fb9558ca46c4ce488073a8d22450415c5eb4f4cfb0d11b5"
+"checksum log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" = "ab83497bf8bf4ed2a74259c1c802351fcd67a65baa86394b6ba73c36f4838054"
 "checksum pango 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "2d25afdf2915e8afee5d0c2fccd8426b7c32e3a58aaf7ed2b41a4609c64617de"
 "checksum pango-sys 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "a894abf6d9c35d205137cecc9e06e500b145f8381a4a700b2036aaa4fe8b6874"
 "checksum pkg-config 0.3.9 (registry+https://github.com/rust-lang/crates.io-index)" = "3a8b4c6b8165cd1a1cd4b9b120978131389f64bdaf456435caa41e630edba903"
